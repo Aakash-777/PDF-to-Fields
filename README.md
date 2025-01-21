@@ -1,4 +1,4 @@
-# **PDF Details Extractor**
+# **PDF to Fields**
 
 This project extracts specific details (Name, Phone Number, and Address) from a PDF and automatically populates form fields in a frontend application. It uses Python (Flask) for the backend, PDFPlumber for text extraction, and the Gemini API for extracting structured information.
 
