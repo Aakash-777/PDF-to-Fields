@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extract Details from PDF</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <h2>PDF to Fields ❤️</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" >
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" >
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="3" ></textarea>
+
+        <label for="pdf">Upload PDF File:</label>
+        <input type="file" id="pdf" name="pdf" accept="application/pdf">
+
+        <div id="loader"></div>
+    </form>
+
+    <h3>Extracted Text:</h3>
+    <div id="output" style="white-space: pre-wrap; border: 1px solid #ddd; padding: 10px;"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
