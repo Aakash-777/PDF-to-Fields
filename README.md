@@ -16,7 +16,6 @@ This project extracts specific details (Name, Phone Number, and Address) from a 
 - **Backend**: Python, Flask, PDFPlumber
 - **API**: Google Gemini API
 - **Frontend**: HTML, CSS, JavaScript
-- **Styling**: Loader for better UX
 
 ---
 
