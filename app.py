@@ -3,11 +3,15 @@ import pdfplumber
 import google.generativeai as genai
 import json
 import re
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 app = Flask(__name__)
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCuAC-Kmhab5ukLNm3d2X3HSqcLqmPmo3U")
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 @app.route("/")

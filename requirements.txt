@@ -2,4 +2,5 @@ flask
 flask-cors
 pdfplumber
 google-generativeai
+python-dotenv
 gunicorn
