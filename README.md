@@ -7,7 +7,6 @@ This project extracts specific details (Name, Phone Number, and Address) from a 
 ## **Features**
 - Automatically extracts text from uploaded PDFs.
 - Populates form fields with Name, Phone Number, and Address.
-- Displays extracted raw text for transparency.
 - Includes a loader to indicate processing.
 
 ---
