@@ -22,8 +22,8 @@ This project extracts specific details (Name, Phone Number, and Address) from a 
 
 ### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/your-username/pdf-details-extractor.git
-cd pdf-details-extractor
+git clone https://github.com/your-username/PDF-to-Fields.git
+cd PDF-to-Fields
 ```
 
 ### 2. **Set Up the Python Environment**
@@ -34,12 +34,12 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ### 3. **Install Dependencies**
 ```bash
-pip install flask flask-cors pdfplumber google-generativeai
+pip install -r requirements.txt
 ```
 
 ### 4. **Configure the Gemini API**
 - Obtain your API key from Google Gemini.
-- Replace `"YOUR_API_KEY"` in `app.py` with your actual API key.
+- Create a `.env` file and add this line inside `GEMINI_API_KEY = your_actual_api_key` with your actual API key.
 
 ### 5. **Run the Application**
 ```bash
@@ -53,8 +53,7 @@ python app.py
 
 ## **Usage**
 1. Upload a PDF file.
-2. The text is extracted and displayed in the "Extracted Text" section.
-3. The fields for Name, Phone Number, and Address are automatically populated.
+2. The fields for Name, Phone Number, and Address are automatically populated.
 
 ---
 
@@ -68,6 +67,8 @@ project/
 │   ├── styles.css           # Styling
 │   └── script.js            # Frontend logic
 ├── requirements.txt         # Python dependencies
+├── venv/                    # Virtual Environment
+├── .env                     # Environment Variables for API Keys and other Secrets
 ```
 
 ---
@@ -79,6 +80,6 @@ Use the provided demo PDF for testing: [Demo PDF](https://drive.google.com/file/
 
 ## **Future Enhancements**
 - Add support for extracting additional fields.
-- Deploy the application on platforms like Heroku, Render, or Vercel.
-- Include a detailed error log for better debugging.
+- Optimize processing for instant results.
+- Implement Optical Character Recognition (OCR) for extracting text from images inside the pdf
 
