@@ -78,6 +78,11 @@ Use the provided demo PDF for testing: [Demo PDF](https://drive.google.com/file/
 
 ---
 
+## **Deployed Link**
+Use the application through this link: [https://pdf-to-fields.onrender.com/](https://pdf-to-fields.onrender.com/).
+
+---
+
 ## **Future Enhancements**
 - Add support for extracting additional fields.
 - Optimize processing for instant results.
