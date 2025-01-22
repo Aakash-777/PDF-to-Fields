@@ -81,7 +81,7 @@ Use the provided demo PDF for testing: [Demo PDF](https://drive.google.com/file/
 ## **Deployed Link**
 Use the application through this link: [https://pdf-to-fields.onrender.com/](https://pdf-to-fields.onrender.com/).
 
-`  Might take some time initially to start due to inactivity  `
+`  The website might initially take 50sec or more to load up due to inactivity (since I am using the free service in render)`
 
 ---
 
